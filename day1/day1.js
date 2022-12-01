@@ -1,4 +1,3 @@
-var fileLineArray = [];
 var lineReader = require('readline').createInterface({
   input: require('fs').createReadStream('day1.txt')
 });
